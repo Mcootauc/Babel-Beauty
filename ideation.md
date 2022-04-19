@@ -29,3 +29,21 @@ Expounded Ideas for Food App:
   Structure: Two tabs, (1) List of all recipies given in API (most likely going to use TheMealDB) filtering by category of food, (2) Database of all recipe reviews made
   
   (1) Full listt of recipes can be sorted by specific categories (Chicken, seafood, etc.), upon choosing a recipe, the entire ingredient and instruction list will be made. At the bottom of the recipe, there would be a button that would redirect users to write a review of the recipe that they followed.
+  
+  
+  
+  
+  
+  4/19 Class Notes:
+  Step 1: 
+- Working adults are a group of people that need a way to have quick, healthy meals accessible because they value their health and need good meals for after work hours.
+
+Step 2: 
+- quick, easy meals for a time crunch
+- healthy meals that are different than the basics
+
+Step 3: 
+- A recipe app that allows the user to search for different recipes. After reading a recipe, the app takes the user to a review page that lets them write a review post about the recipe to add tips, criticism, or additions that might be helpful to other users.
+
+Step 4:
+- _____(app name)___ is a recipe list and review app which helps people quickly find easy meals to cook so that they can expand their palate and cooking horizon with a list of different meals ranging from healthy to fun desserts
