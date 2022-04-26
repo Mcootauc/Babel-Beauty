@@ -9,13 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            Text("Among us!")
+                .tabItem {
+                    Label("Recipes",
+                          systemImage:
+                            "fork.knife")
+                }
+            
+            Blog()
+                .tabItem {
+                    Label("Reviews",
+                          systemImage:
+                            "books.vertical.fill")
+                }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(Babel_CookbookAuth())
     }
 }
