@@ -2,7 +2,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Blog()
+        TabView {
+            Text("Among us!")
+                .tabItem {
+                    Label("Food Library",
+                          systemImage:
+                            "books.vertical.fill")
+                }
+            
+            Blog()
+                .tabItem {
+                    Label("Reviews",
+                          systemImage:
+                            "fork.knife")
+                }
+        }
     }
 }
 
