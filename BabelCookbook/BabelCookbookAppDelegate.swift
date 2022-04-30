@@ -16,7 +16,7 @@ import UIKit
 // first-party iOS ones just so I know who’s responsible for what.
 import Firebase
 
-class BareBonesBlogAppDelegate: NSObject, UIApplicationDelegate {
+class BabelCookbookAppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions:
                      [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

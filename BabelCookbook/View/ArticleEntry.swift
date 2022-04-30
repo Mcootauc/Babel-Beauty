@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct ArticleEntry: View {
-    @EnvironmentObject var articleService: BareBonesBlogArticle
+    @EnvironmentObject var articleService: BabelCookbookArticle
 
     @Binding var articles: [Article]
     @Binding var writing: Bool
@@ -79,6 +79,6 @@ struct ArticleEntry_Previews: PreviewProvider {
     
     static var previews: some View {
         ArticleEntry(articles: $articles, writing: $writing)
-            .environmentObject(BareBonesBlogArticle())
+            .environmentObject(BabelCookbookArticle())
     }
 }

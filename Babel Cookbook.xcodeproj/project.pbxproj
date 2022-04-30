@@ -12,20 +12,17 @@
 		B7432ABB281BA1E4002B417E /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B7432ABA281BA1E4002B417E /* FirebaseAuthUI */; };
 		B7432ABD281BA1E4002B417E /* FirebaseEmailAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B7432ABC281BA1E4002B417E /* FirebaseEmailAuthUI */; };
 		B7432AC1281BA26B002B417E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7432AC0281BA26B002B417E /* GoogleService-Info.plist */; };
-		F73167BD27E0600800BF3A7A /* BareBonesBlogArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73167BC27E0600800BF3A7A /* BareBonesBlogArticle.swift */; };
-		F757398E27DEA80F00D35F63 /* BareBonesBlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757398D27DEA80F00D35F63 /* BareBonesBlogApp.swift */; };
+		F73167BD27E0600800BF3A7A /* BabelCookbookArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73167BC27E0600800BF3A7A /* BabelCookbookArticle.swift */; };
+		F757398E27DEA80F00D35F63 /* BabelCookbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757398D27DEA80F00D35F63 /* BabelCookbookApp.swift */; };
 		F757399027DEA80F00D35F63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757398F27DEA80F00D35F63 /* ContentView.swift */; };
 		F757399227DEA81000D35F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F757399127DEA81000D35F63 /* Assets.xcassets */; };
 		F757399527DEA81000D35F63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F757399427DEA81000D35F63 /* Preview Assets.xcassets */; };
-		F757399F27DEA81000D35F63 /* BareBonesBlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757399E27DEA81000D35F63 /* BareBonesBlogTests.swift */; };
-		F75739A927DEA81100D35F63 /* BareBonesBlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739A827DEA81100D35F63 /* BareBonesBlogUITests.swift */; };
-		F75739AB27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739AA27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift */; };
-		F75739C127DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */; };
-		F75739C227DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */; };
-		F75739C327DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */; };
-		F75739C527DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */; };
-		F75739C627DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */; };
-		F75739C727DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */; };
+		F75739C127DEAE6600D35F63 /* BabelCookbookAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C027DEAE6600D35F63 /* BabelCookbookAppDelegate.swift */; };
+		F75739C227DEAE6600D35F63 /* BabelCookbookAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C027DEAE6600D35F63 /* BabelCookbookAppDelegate.swift */; };
+		F75739C327DEAE6600D35F63 /* BabelCookbookAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C027DEAE6600D35F63 /* BabelCookbookAppDelegate.swift */; };
+		F75739C527DEB64D00D35F63 /* BabelCookbookAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C427DEB64D00D35F63 /* BabelCookbookAuth.swift */; };
+		F75739C627DEB64D00D35F63 /* BabelCookbookAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C427DEB64D00D35F63 /* BabelCookbookAuth.swift */; };
+		F75739C727DEB64D00D35F63 /* BabelCookbookAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739C427DEB64D00D35F63 /* BabelCookbookAuth.swift */; };
 		F75739D127DECAE800D35F63 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739D027DECAE800D35F63 /* AuthenticationViewController.swift */; };
 		F75739D227DECAE800D35F63 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739D027DECAE800D35F63 /* AuthenticationViewController.swift */; };
 		F75739D327DECAE800D35F63 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75739D027DECAE800D35F63 /* AuthenticationViewController.swift */; };
@@ -66,19 +63,16 @@
 
 /* Begin PBXFileReference section */
 		B7432AC0281BA26B002B417E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		F73167BC27E0600800BF3A7A /* BareBonesBlogArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogArticle.swift; sourceTree = "<group>"; };
-		F757398A27DEA80F00D35F63 /* BareBonesBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BareBonesBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F757398D27DEA80F00D35F63 /* BareBonesBlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogApp.swift; sourceTree = "<group>"; };
+		F73167BC27E0600800BF3A7A /* BabelCookbookArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelCookbookArticle.swift; sourceTree = "<group>"; };
+		F757398A27DEA80F00D35F63 /* Babel Cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Babel Cookbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F757398D27DEA80F00D35F63 /* BabelCookbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelCookbookApp.swift; sourceTree = "<group>"; };
 		F757398F27DEA80F00D35F63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F757399127DEA81000D35F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F757399427DEA81000D35F63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F757399A27DEA81000D35F63 /* BareBonesBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BareBonesBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F757399E27DEA81000D35F63 /* BareBonesBlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogTests.swift; sourceTree = "<group>"; };
-		F75739A427DEA81000D35F63 /* BareBonesBlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BareBonesBlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F75739A827DEA81100D35F63 /* BareBonesBlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogUITests.swift; sourceTree = "<group>"; };
-		F75739AA27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogAppDelegate.swift; sourceTree = "<group>"; };
-		F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BareBonesBlogAuth.swift; sourceTree = "<group>"; };
+		F757399A27DEA81000D35F63 /* Babel CookbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Babel CookbookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75739A427DEA81000D35F63 /* Babel CookbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Babel CookbookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75739C027DEAE6600D35F63 /* BabelCookbookAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelCookbookAppDelegate.swift; sourceTree = "<group>"; };
+		F75739C427DEB64D00D35F63 /* BabelCookbookAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelCookbookAuth.swift; sourceTree = "<group>"; };
 		F75739D027DECAE800D35F63 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		F75739D527DF0A2D00D35F63 /* ArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetail.swift; sourceTree = "<group>"; };
 		F75739DA27DF0AA800D35F63 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -120,9 +114,7 @@
 		F757398127DEA80F00D35F63 = {
 			isa = PBXGroup;
 			children = (
-				F757398C27DEA80F00D35F63 /* BareBonesBlog */,
-				F757399D27DEA81000D35F63 /* BareBonesBlogTests */,
-				F75739A727DEA81100D35F63 /* BareBonesBlogUITests */,
+				F757398C27DEA80F00D35F63 /* BabelCookbook */,
 				F757398B27DEA80F00D35F63 /* Products */,
 				F75739CD27DEBF2400D35F63 /* Frameworks */,
 			);
@@ -131,27 +123,27 @@
 		F757398B27DEA80F00D35F63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F757398A27DEA80F00D35F63 /* BareBonesBlog.app */,
-				F757399A27DEA81000D35F63 /* BareBonesBlogTests.xctest */,
-				F75739A427DEA81000D35F63 /* BareBonesBlogUITests.xctest */,
+				F757398A27DEA80F00D35F63 /* Babel Cookbook.app */,
+				F757399A27DEA81000D35F63 /* Babel CookbookTests.xctest */,
+				F75739A427DEA81000D35F63 /* Babel CookbookUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F757398C27DEA80F00D35F63 /* BareBonesBlog */ = {
+		F757398C27DEA80F00D35F63 /* BabelCookbook */ = {
 			isa = PBXGroup;
 			children = (
 				B7432AC0281BA26B002B417E /* GoogleService-Info.plist */,
 				F75739EA27DF1ADA00D35F63 /* Service */,
 				F75739D927DF0A8900D35F63 /* Model */,
 				F75739D427DF09D200D35F63 /* View */,
-				F757398D27DEA80F00D35F63 /* BareBonesBlogApp.swift */,
-				F75739C027DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift */,
+				F757398D27DEA80F00D35F63 /* BabelCookbookApp.swift */,
+				F75739C027DEAE6600D35F63 /* BabelCookbookAppDelegate.swift */,
 				F757398F27DEA80F00D35F63 /* ContentView.swift */,
 				F757399127DEA81000D35F63 /* Assets.xcassets */,
 				F757399327DEA81000D35F63 /* Preview Content */,
 			);
-			path = BareBonesBlog;
+			path = BabelCookbook;
 			sourceTree = "<group>";
 		};
 		F757399327DEA81000D35F63 /* Preview Content */ = {
@@ -160,23 +152,6 @@
 				F757399427DEA81000D35F63 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F757399D27DEA81000D35F63 /* BareBonesBlogTests */ = {
-			isa = PBXGroup;
-			children = (
-				F757399E27DEA81000D35F63 /* BareBonesBlogTests.swift */,
-			);
-			path = BareBonesBlogTests;
-			sourceTree = "<group>";
-		};
-		F75739A727DEA81100D35F63 /* BareBonesBlogUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F75739A827DEA81100D35F63 /* BareBonesBlogUITests.swift */,
-				F75739AA27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift */,
-			);
-			path = BareBonesBlogUITests;
 			sourceTree = "<group>";
 		};
 		F75739CD27DEBF2400D35F63 /* Frameworks */ = {
@@ -210,8 +185,8 @@
 		F75739EA27DF1ADA00D35F63 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				F75739C427DEB64D00D35F63 /* BareBonesBlogAuth.swift */,
-				F73167BC27E0600800BF3A7A /* BareBonesBlogArticle.swift */,
+				F75739C427DEB64D00D35F63 /* BabelCookbookAuth.swift */,
+				F73167BC27E0600800BF3A7A /* BabelCookbookArticle.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -219,9 +194,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F757398927DEA80F00D35F63 /* BareBonesBlog */ = {
+		F757398927DEA80F00D35F63 /* Babel Cookbook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F75739AE27DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlog" */;
+			buildConfigurationList = F75739AE27DEA81100D35F63 /* Build configuration list for PBXNativeTarget "Babel Cookbook" */;
 			buildPhases = (
 				F757398627DEA80F00D35F63 /* Sources */,
 				F757398727DEA80F00D35F63 /* Frameworks */,
@@ -231,7 +206,7 @@
 			);
 			dependencies = (
 			);
-			name = BareBonesBlog;
+			name = "Babel Cookbook";
 			packageProductDependencies = (
 				B7432AB5281BA1A4002B417E /* FirebaseAuth */,
 				B7432AB7281BA1A4002B417E /* FirebaseFirestore */,
@@ -239,12 +214,12 @@
 				B7432ABC281BA1E4002B417E /* FirebaseEmailAuthUI */,
 			);
 			productName = BareBonesBlog;
-			productReference = F757398A27DEA80F00D35F63 /* BareBonesBlog.app */;
+			productReference = F757398A27DEA80F00D35F63 /* Babel Cookbook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F757399927DEA81000D35F63 /* BareBonesBlogTests */ = {
+		F757399927DEA81000D35F63 /* Babel CookbookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F75739B127DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlogTests" */;
+			buildConfigurationList = F75739B127DEA81100D35F63 /* Build configuration list for PBXNativeTarget "Babel CookbookTests" */;
 			buildPhases = (
 				F757399627DEA81000D35F63 /* Sources */,
 				F757399727DEA81000D35F63 /* Frameworks */,
@@ -255,14 +230,14 @@
 			dependencies = (
 				F757399C27DEA81000D35F63 /* PBXTargetDependency */,
 			);
-			name = BareBonesBlogTests;
+			name = "Babel CookbookTests";
 			productName = BareBonesBlogTests;
-			productReference = F757399A27DEA81000D35F63 /* BareBonesBlogTests.xctest */;
+			productReference = F757399A27DEA81000D35F63 /* Babel CookbookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F75739A327DEA81000D35F63 /* BareBonesBlogUITests */ = {
+		F75739A327DEA81000D35F63 /* Babel CookbookUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F75739B427DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlogUITests" */;
+			buildConfigurationList = F75739B427DEA81100D35F63 /* Build configuration list for PBXNativeTarget "Babel CookbookUITests" */;
 			buildPhases = (
 				F75739A027DEA81000D35F63 /* Sources */,
 				F75739A127DEA81000D35F63 /* Frameworks */,
@@ -273,9 +248,9 @@
 			dependencies = (
 				F75739A627DEA81000D35F63 /* PBXTargetDependency */,
 			);
-			name = BareBonesBlogUITests;
+			name = "Babel CookbookUITests";
 			productName = BareBonesBlogUITests;
-			productReference = F75739A427DEA81000D35F63 /* BareBonesBlogUITests.xctest */;
+			productReference = F75739A427DEA81000D35F63 /* Babel CookbookUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -301,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F757398527DEA80F00D35F63 /* Build configuration list for PBXProject "BareBonesBlog" */;
+			buildConfigurationList = F757398527DEA80F00D35F63 /* Build configuration list for PBXProject "Babel Cookbook" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,9 +293,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F757398927DEA80F00D35F63 /* BareBonesBlog */,
-				F757399927DEA81000D35F63 /* BareBonesBlogTests */,
-				F75739A327DEA81000D35F63 /* BareBonesBlogUITests */,
+				F757398927DEA80F00D35F63 /* Babel Cookbook */,
+				F757399927DEA81000D35F63 /* Babel CookbookTests */,
+				F75739A327DEA81000D35F63 /* Babel CookbookUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -358,16 +333,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F75739DB27DF0AA800D35F63 /* Article.swift in Sources */,
-				F75739C127DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */,
+				F75739C127DEAE6600D35F63 /* BabelCookbookAppDelegate.swift in Sources */,
 				F75739D627DF0A2D00D35F63 /* ArticleDetail.swift in Sources */,
 				F75739DF27DF0F3C00D35F63 /* ArticleList.swift in Sources */,
-				F75739C527DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */,
+				F75739C527DEB64D00D35F63 /* BabelCookbookAuth.swift in Sources */,
 				F7EC064027DFF7C600DF6495 /* ArticleMetadata.swift in Sources */,
-				F73167BD27E0600800BF3A7A /* BareBonesBlogArticle.swift in Sources */,
+				F73167BD27E0600800BF3A7A /* BabelCookbookArticle.swift in Sources */,
 				F75739EC27DF1B5100D35F63 /* ArticleEntry.swift in Sources */,
 				F757399027DEA80F00D35F63 /* ContentView.swift in Sources */,
 				F75739F027DF24F000D35F63 /* Blog.swift in Sources */,
-				F757398E27DEA80F00D35F63 /* BareBonesBlogApp.swift in Sources */,
+				F757398E27DEA80F00D35F63 /* BabelCookbookApp.swift in Sources */,
 				F75739D127DECAE800D35F63 /* AuthenticationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,15 +351,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75739C627DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */,
+				F75739C627DEB64D00D35F63 /* BabelCookbookAuth.swift in Sources */,
 				F75739E027DF0F3C00D35F63 /* ArticleList.swift in Sources */,
-				F75739C227DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */,
+				F75739C227DEAE6600D35F63 /* BabelCookbookAppDelegate.swift in Sources */,
 				F75739ED27DF1B5100D35F63 /* ArticleEntry.swift in Sources */,
 				F75739DC27DF0AA800D35F63 /* Article.swift in Sources */,
 				F75739D727DF0A2D00D35F63 /* ArticleDetail.swift in Sources */,
 				F75739F127DF24F000D35F63 /* Blog.swift in Sources */,
 				F75739D227DECAE800D35F63 /* AuthenticationViewController.swift in Sources */,
-				F757399F27DEA81000D35F63 /* BareBonesBlogTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,14 +367,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F75739DD27DF0AA800D35F63 /* Article.swift in Sources */,
-				F75739C327DEAE6600D35F63 /* BareBonesBlogAppDelegate.swift in Sources */,
+				F75739C327DEAE6600D35F63 /* BabelCookbookAppDelegate.swift in Sources */,
 				F75739D827DF0A2D00D35F63 /* ArticleDetail.swift in Sources */,
 				F75739E127DF0F3C00D35F63 /* ArticleList.swift in Sources */,
-				F75739C727DEB64D00D35F63 /* BareBonesBlogAuth.swift in Sources */,
+				F75739C727DEB64D00D35F63 /* BabelCookbookAuth.swift in Sources */,
 				F75739EE27DF1B5100D35F63 /* ArticleEntry.swift in Sources */,
-				F75739AB27DEA81100D35F63 /* BareBonesBlogUITestsLaunchTests.swift in Sources */,
 				F75739F227DF24F000D35F63 /* Blog.swift in Sources */,
-				F75739A927DEA81100D35F63 /* BareBonesBlogUITests.swift in Sources */,
 				F75739D327DECAE800D35F63 /* AuthenticationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,12 +382,12 @@
 /* Begin PBXTargetDependency section */
 		F757399C27DEA81000D35F63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F757398927DEA80F00D35F63 /* BareBonesBlog */;
+			target = F757398927DEA80F00D35F63 /* Babel Cookbook */;
 			targetProxy = F757399B27DEA81000D35F63 /* PBXContainerItemProxy */;
 		};
 		F75739A627DEA81000D35F63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F757398927DEA80F00D35F63 /* BareBonesBlog */;
+			target = F757398927DEA80F00D35F63 /* Babel Cookbook */;
 			targetProxy = F75739A527DEA81000D35F63 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -544,7 +516,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BareBonesBlog/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BabelCookbook/Preview Content\"";
 				DEVELOPMENT_TEAM = 3CWQTF6K7P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -559,7 +531,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.BabelCookbook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Babel Cookbook";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -573,7 +545,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BareBonesBlog/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BabelCookbook/Preview Content\"";
 				DEVELOPMENT_TEAM = 3CWQTF6K7P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -588,7 +560,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.BabelCookbook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Babel Cookbook";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -611,7 +583,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BareBonesBlog.app/BareBonesBlog";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babel Cookbook.app/Babel Cookbook";
 			};
 			name = Debug;
 		};
@@ -631,7 +603,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BareBonesBlog.app/BareBonesBlog";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babel Cookbook.app/Babel Cookbook";
 			};
 			name = Release;
 		};
@@ -674,7 +646,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F757398527DEA80F00D35F63 /* Build configuration list for PBXProject "BareBonesBlog" */ = {
+		F757398527DEA80F00D35F63 /* Build configuration list for PBXProject "Babel Cookbook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F75739AC27DEA81100D35F63 /* Debug */,
@@ -683,7 +655,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F75739AE27DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlog" */ = {
+		F75739AE27DEA81100D35F63 /* Build configuration list for PBXNativeTarget "Babel Cookbook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F75739AF27DEA81100D35F63 /* Debug */,
@@ -692,7 +664,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F75739B127DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlogTests" */ = {
+		F75739B127DEA81100D35F63 /* Build configuration list for PBXNativeTarget "Babel CookbookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F75739B227DEA81100D35F63 /* Debug */,
@@ -701,7 +673,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F75739B427DEA81100D35F63 /* Build configuration list for PBXNativeTarget "BareBonesBlogUITests" */ = {
+		F75739B427DEA81100D35F63 /* Build configuration list for PBXNativeTarget "Babel CookbookUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F75739B527DEA81100D35F63 /* Debug */,

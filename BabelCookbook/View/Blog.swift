@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct Blog: View {
-    @EnvironmentObject var auth: BareBonesBlogAuth
+    @EnvironmentObject var auth: BabelCookbookAuth
     @State var requestLogin = false
 
     var body: some View {
@@ -27,6 +27,6 @@ struct Blog: View {
 
 struct Blog_Previews: PreviewProvider {
     static var previews: some View {
-        Blog().environmentObject(BareBonesBlogAuth())
+        Blog().environmentObject(BabelCookbookAuth())
     }
 }
