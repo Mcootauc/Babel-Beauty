@@ -8,7 +8,7 @@ import Foundation
 import FirebaseAuthUI
 import FirebaseEmailAuthUI
 
-class Babel_CookbookAuth: NSObject, ObservableObject, FUIAuthDelegate {
+class BabelCookbookAuth: NSObject, ObservableObject, FUIAuthDelegate {
     let authUI: FUIAuth? = FUIAuth.defaultAuthUI()
 
     // Multiple providers can be supported! See: https://firebase.google.com/docs/auth/ios/firebaseui

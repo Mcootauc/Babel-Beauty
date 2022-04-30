@@ -15,7 +15,7 @@ enum ArticleServiceError: Error {
     case unexpectedError
 }
 
-class Babel_CookbookArticle: ObservableObject {
+class BabelCookbookArticle: ObservableObject {
     private let db = Firestore.firestore()
 
     // Some of the iOS Firebase library’s methods are currently a little…odd.

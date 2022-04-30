@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Bable Cookbook
-//
-//  Created by Sebastian Cruz on 4/26/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -12,24 +5,25 @@ struct ContentView: View {
         TabView {
             APIView()
                 .tabItem {
-                    Label("Recipes",
+                    Label("Food Library",
                           systemImage:
-                            "fork.knife")
+                            "books.vertical.fill")
                 }
             
             Blog()
                 .tabItem {
                     Label("Reviews",
                           systemImage:
-                            "books.vertical.fill")
+                            "fork.knife")
                 }
         }
+        .colorMultiply(Color("pastelOrange"))
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(Babel_CookbookAuth())
+            .environmentObject(BabelCookbookAuth())
     }
 }

@@ -4,8 +4,8 @@
 import SwiftUI
 
 struct ArticleList: View {
-    @EnvironmentObject var auth: Babel_CookbookAuth
-    @EnvironmentObject var articleService: Babel_CookbookArticle
+    @EnvironmentObject var auth: BabelCookbookAuth
+    @EnvironmentObject var articleService: BabelCookbookArticle
 
     @Binding var requestLogin: Bool
 
@@ -37,13 +37,14 @@ struct ArticleList: View {
                     }
                 }
             }
-            .navigationTitle("Bare Bones Blog 🦴")
+            .navigationTitle("Food Reviews")
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarLeading) {
                     if auth.user != nil {
                         Button("New Article") {
                             writing = true
                         }
+                        .foregroundColor(Color("black"))
                     }
                 }
 
@@ -57,10 +58,13 @@ struct ArticleList: View {
                                 // in a production app.
                             }
                         }
+                        .foregroundColor(Color("black"))
                     } else {
                         Button("Sign In") {
                             requestLogin = true
+                            
                         }
+                        .foregroundColor(Color("black"))
                     }
                 }
             }
@@ -87,7 +91,7 @@ struct ArticleList_Previews: PreviewProvider {
 
     static var previews: some View {
         ArticleList(requestLogin: $requestLogin, articles: [])
-            .environmentObject(Babel_CookbookAuth())
+            .environmentObject(BabelCookbookAuth())
 
         ArticleList(requestLogin: $requestLogin, articles: [
             Article(
@@ -104,7 +108,7 @@ struct ArticleList_Previews: PreviewProvider {
                 body: "Duis diam ipsum, efficitur sit amet something somesit amet"
             )
         ])
-        .environmentObject(Babel_CookbookAuth())
-        .environmentObject(Babel_CookbookArticle())
+        .environmentObject(BabelCookbookAuth())
+        .environmentObject(BabelCookbookArticle())
     }
 }
