@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7A87ADC281E02FC009D69B8 /* Babel_CookbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A87ADB281E02FC009D69B8 /* Babel_CookbookApp.swift */; };
+		B71D9EA8281E12D90026F9E0 /* BabelCookbookAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EA7281E12D90026F9E0 /* BabelCookbookAppDelegate.swift */; };
+		B71D9EAA281E12E30026F9E0 /* BabelCookbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EA9281E12E30026F9E0 /* BabelCookbookApp.swift */; };
+		B71D9EAC281E13000026F9E0 /* BabelCookbookArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EAB281E13000026F9E0 /* BabelCookbookArticle.swift */; };
+		B71D9EAE281E13070026F9E0 /* BabelCookbookAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EAD281E13060026F9E0 /* BabelCookbookAuth.swift */; };
+		B71D9EB1281E13280026F9E0 /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EB0281E13280026F9E0 /* ArticleList.swift */; };
+		B71D9EB3281E132C0026F9E0 /* ArticleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EB2281E132C0026F9E0 /* ArticleEntry.swift */; };
+		B71D9EB5281E13340026F9E0 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EB4281E13340026F9E0 /* AuthenticationViewController.swift */; };
+		B71D9EB7281E133A0026F9E0 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EB6281E133A0026F9E0 /* Blog.swift */; };
+		B71D9EB9281E13450026F9E0 /* ArticleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EB8281E13450026F9E0 /* ArticleMetadata.swift */; };
+		B71D9EBB281E134A0026F9E0 /* ArticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EBA281E134A0026F9E0 /* ArticleDetail.swift */; };
+		B71D9EC0281E14FF0026F9E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B71D9EBF281E14FF0026F9E0 /* GoogleService-Info.plist */; };
+		B71D9EC3281E15580026F9E0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B71D9EC2281E15580026F9E0 /* FirebaseAuth */; };
+		B71D9EC5281E15580026F9E0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B71D9EC4281E15580026F9E0 /* FirebaseFirestore */; };
+		B71D9EC8281E159C0026F9E0 /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B71D9EC7281E159C0026F9E0 /* FirebaseAuthUI */; };
+		B71D9ECA281E159C0026F9E0 /* FirebaseEmailAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = B71D9EC9281E159C0026F9E0 /* FirebaseEmailAuthUI */; };
+		B71D9ECC281E15ED0026F9E0 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9ECB281E15ED0026F9E0 /* Article.swift */; };
+		B71D9ECF281E165E0026F9E0 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9ECE281E165D0026F9E0 /* ListView.swift */; };
+		B71D9ED2281E16770026F9E0 /* APIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9ED1281E16770026F9E0 /* APIView.swift */; };
+		B71D9ED4281E167C0026F9E0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9ED3281E167C0026F9E0 /* DetailView.swift */; };
+		B71D9ED6281E16810026F9E0 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9ED5281E16810026F9E0 /* RowView.swift */; };
+		B71D9ED9281E16A10026F9E0 /* CookbookAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9ED8281E16A10026F9E0 /* CookbookAPI.swift */; };
+		B71D9EDB281E16B10026F9E0 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EDA281E16B10026F9E0 /* Recipe.swift */; };
 		B7A87ADE281E02FC009D69B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A87ADD281E02FC009D69B8 /* ContentView.swift */; };
 		B7A87AE0281E02FE009D69B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A87ADF281E02FE009D69B8 /* Assets.xcassets */; };
 		B7A87AE3281E02FE009D69B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A87AE2281E02FE009D69B8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B71D9EA7281E12D90026F9E0 /* BabelCookbookAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelCookbookAppDelegate.swift; sourceTree = "<group>"; };
+		B71D9EA9281E12E30026F9E0 /* BabelCookbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelCookbookApp.swift; sourceTree = "<group>"; };
+		B71D9EAB281E13000026F9E0 /* BabelCookbookArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelCookbookArticle.swift; sourceTree = "<group>"; };
+		B71D9EAD281E13060026F9E0 /* BabelCookbookAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelCookbookAuth.swift; sourceTree = "<group>"; };
+		B71D9EB0281E13280026F9E0 /* ArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleList.swift; sourceTree = "<group>"; };
+		B71D9EB2281E132C0026F9E0 /* ArticleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleEntry.swift; sourceTree = "<group>"; };
+		B71D9EB4281E13340026F9E0 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		B71D9EB6281E133A0026F9E0 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		B71D9EB8281E13450026F9E0 /* ArticleMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleMetadata.swift; sourceTree = "<group>"; };
+		B71D9EBA281E134A0026F9E0 /* ArticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetail.swift; sourceTree = "<group>"; };
+		B71D9EBF281E14FF0026F9E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Assets.xcassets/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B71D9ECB281E15ED0026F9E0 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		B71D9ECE281E165D0026F9E0 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		B71D9ED1281E16770026F9E0 /* APIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIView.swift; sourceTree = "<group>"; };
+		B71D9ED3281E167C0026F9E0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B71D9ED5281E16810026F9E0 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		B71D9ED8281E16A10026F9E0 /* CookbookAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookAPI.swift; sourceTree = "<group>"; };
+		B71D9EDA281E16B10026F9E0 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		B7A87AD8281E02FC009D69B8 /* Babel Cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Babel Cookbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7A87ADB281E02FC009D69B8 /* Babel_CookbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babel_CookbookApp.swift; sourceTree = "<group>"; };
 		B7A87ADD281E02FC009D69B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7A87ADF281E02FE009D69B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A87AE2281E02FE009D69B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -26,12 +64,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71D9ECA281E159C0026F9E0 /* FirebaseEmailAuthUI in Frameworks */,
+				B71D9EC3281E15580026F9E0 /* FirebaseAuth in Frameworks */,
+				B71D9EC8281E159C0026F9E0 /* FirebaseAuthUI in Frameworks */,
+				B71D9EC5281E15580026F9E0 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B71D9EAF281E130A0026F9E0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B71D9EAD281E13060026F9E0 /* BabelCookbookAuth.swift */,
+				B71D9EAB281E13000026F9E0 /* BabelCookbookArticle.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B71D9EBC281E13550026F9E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B71D9EB0281E13280026F9E0 /* ArticleList.swift */,
+				B71D9EB2281E132C0026F9E0 /* ArticleEntry.swift */,
+				B71D9EB4281E13340026F9E0 /* AuthenticationViewController.swift */,
+				B71D9EB6281E133A0026F9E0 /* Blog.swift */,
+				B71D9EB8281E13450026F9E0 /* ArticleMetadata.swift */,
+				B71D9EBA281E134A0026F9E0 /* ArticleDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B71D9ECD281E15F30026F9E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B71D9ECB281E15ED0026F9E0 /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B71D9ED0281E16610026F9E0 /* APIViews */ = {
+			isa = PBXGroup;
+			children = (
+				B71D9ECE281E165D0026F9E0 /* ListView.swift */,
+				B71D9ED1281E16770026F9E0 /* APIView.swift */,
+				B71D9ED3281E167C0026F9E0 /* DetailView.swift */,
+				B71D9ED5281E16810026F9E0 /* RowView.swift */,
+			);
+			path = APIViews;
+			sourceTree = "<group>";
+		};
+		B71D9ED7281E16910026F9E0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B71D9ED8281E16A10026F9E0 /* CookbookAPI.swift */,
+				B71D9EDA281E16B10026F9E0 /* Recipe.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		B7A87ACF281E02FC009D69B8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +143,15 @@
 		B7A87ADA281E02FC009D69B8 /* Babel Cookbook */ = {
 			isa = PBXGroup;
 			children = (
-				B7A87ADB281E02FC009D69B8 /* Babel_CookbookApp.swift */,
+				B71D9ED0281E16610026F9E0 /* APIViews */,
+				B71D9ED7281E16910026F9E0 /* Data */,
+				B71D9EBF281E14FF0026F9E0 /* GoogleService-Info.plist */,
+				B71D9EA7281E12D90026F9E0 /* BabelCookbookAppDelegate.swift */,
 				B7A87ADD281E02FC009D69B8 /* ContentView.swift */,
+				B71D9EA9281E12E30026F9E0 /* BabelCookbookApp.swift */,
+				B71D9ECD281E15F30026F9E0 /* Model */,
+				B71D9EAF281E130A0026F9E0 /* Service */,
+				B71D9EBC281E13550026F9E0 /* View */,
 				B7A87ADF281E02FE009D69B8 /* Assets.xcassets */,
 				B7A87AE1281E02FE009D69B8 /* Preview Content */,
 			);
@@ -83,6 +182,12 @@
 			dependencies = (
 			);
 			name = "Babel Cookbook";
+			packageProductDependencies = (
+				B71D9EC2281E15580026F9E0 /* FirebaseAuth */,
+				B71D9EC4281E15580026F9E0 /* FirebaseFirestore */,
+				B71D9EC7281E159C0026F9E0 /* FirebaseAuthUI */,
+				B71D9EC9281E159C0026F9E0 /* FirebaseEmailAuthUI */,
+			);
 			productName = "Babel Cookbook";
 			productReference = B7A87AD8281E02FC009D69B8 /* Babel Cookbook.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +216,10 @@
 				Base,
 			);
 			mainGroup = B7A87ACF281E02FC009D69B8;
+			packageReferences = (
+				B71D9EC1281E15580026F9E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B71D9EC6281E159C0026F9E0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */,
+			);
 			productRefGroup = B7A87AD9281E02FC009D69B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +236,7 @@
 			files = (
 				B7A87AE3281E02FE009D69B8 /* Preview Assets.xcassets in Resources */,
 				B7A87AE0281E02FE009D69B8 /* Assets.xcassets in Resources */,
+				B71D9EC0281E14FF0026F9E0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +247,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71D9EA8281E12D90026F9E0 /* BabelCookbookAppDelegate.swift in Sources */,
+				B71D9ECF281E165E0026F9E0 /* ListView.swift in Sources */,
+				B71D9EB3281E132C0026F9E0 /* ArticleEntry.swift in Sources */,
+				B71D9EAA281E12E30026F9E0 /* BabelCookbookApp.swift in Sources */,
+				B71D9EB1281E13280026F9E0 /* ArticleList.swift in Sources */,
+				B71D9ED2281E16770026F9E0 /* APIView.swift in Sources */,
+				B71D9EB5281E13340026F9E0 /* AuthenticationViewController.swift in Sources */,
+				B71D9EAC281E13000026F9E0 /* BabelCookbookArticle.swift in Sources */,
+				B71D9EB7281E133A0026F9E0 /* Blog.swift in Sources */,
+				B71D9EBB281E134A0026F9E0 /* ArticleDetail.swift in Sources */,
+				B71D9ECC281E15ED0026F9E0 /* Article.swift in Sources */,
+				B71D9ED9281E16A10026F9E0 /* CookbookAPI.swift in Sources */,
+				B71D9ED6281E16810026F9E0 /* RowView.swift in Sources */,
+				B71D9EAE281E13070026F9E0 /* BabelCookbookAuth.swift in Sources */,
 				B7A87ADE281E02FC009D69B8 /* ContentView.swift in Sources */,
-				B7A87ADC281E02FC009D69B8 /* Babel_CookbookApp.swift in Sources */,
+				B71D9EDB281E16B10026F9E0 /* Recipe.swift in Sources */,
+				B71D9ED4281E167C0026F9E0 /* DetailView.swift in Sources */,
+				B71D9EB9281E13450026F9E0 /* ArticleMetadata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +465,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B71D9EC1281E15580026F9E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.0;
+			};
+		};
+		B71D9EC6281E159C0026F9E0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/FirebaseUI-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B71D9EC2281E15580026F9E0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B71D9EC1281E15580026F9E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B71D9EC4281E15580026F9E0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B71D9EC1281E15580026F9E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B71D9EC7281E159C0026F9E0 /* FirebaseAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B71D9EC6281E159C0026F9E0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseAuthUI;
+		};
+		B71D9EC9281E159C0026F9E0 /* FirebaseEmailAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B71D9EC6281E159C0026F9E0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseEmailAuthUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7A87AD0281E02FC009D69B8 /* Project object */;
 }
