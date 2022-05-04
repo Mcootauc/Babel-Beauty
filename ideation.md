@@ -1,6 +1,6 @@
 Which audiences did you consider, and which one did you settle on for your app?
 
-We considered college students, teens, and adults. For our app, we decided to settle on our audience being adults, specifically those who live alone.
+We considered college students, teens, and adults. For our app, we decided to settle on our audience being adults, specifically those interested in online shopping and using new cosmetic products
 
 List the ten needs that you identified for your chosen audience
 
@@ -8,7 +8,7 @@ Food, Time Management, Organization, News, Leisure, Entertainment (Shows, etc), 
 
 State the three needs that were chosen out of the ten, and state the projects that you mapped to those needs
 
-The three needs we chose were: Food, Time Management, and Fitness. The projects that we mapped to these needs were the following: A cookbook (food), Schedule creator (time management), and a Exercise tracker (fitness).
+The three needs we chose were: Food, Time Management, and Fashion/cosmetics. The projects that we mapped to these needs were the following: A cookbook (food), Schedule creator (time management), and a makeup index (fashion/cosmetics).
 
 For each of the three projects, list the goals/ideas that you brainstormed for them
   
@@ -16,25 +16,25 @@ For each of the three projects, list the goals/ideas that you brainstormed for t
   
   Schedule creator: A schedule to allow users to keep track of activites they need to do today. Saved through a database
   
-  Excerise tracker: A record with information about excerises done (both sets and reps) per day. Addiional tab to track macros. Saved through a database
+  Makeup index: A record with a list of various makeup products, filtered by types of products. Saved through a database
 
 State the “winner” of this process
 
-The winner of this process that we concluded was the Food app.
+The winner of this process that we concluded was the Makeup index.
 
 Expounded Ideas for Food App:
   
-  Possible name: Bable Cookbook
+  Possible name: Bable Beauty
   
-  Structure: Two tabs, (1) List of all recipies given in API (most likely going to use TheMealDB) filtering by category of food, (2) Database of all recipe reviews made
+  Structure: Two tabs, (1) List of all cosmetic products given in API  filtering by category of product, (2) Database of all product reviews made
   
-  (1) Full listt of recipes can be sorted by specific categories (Chicken, seafood, etc.), upon choosing a recipe, the entire ingredient and instruction list will be made. At the bottom of the recipe, there would be a button that would redirect users to write a review of the recipe that they followed.
-  
-  
+  (1) Full list of cosmetics which can be categorized by makeup type (foundation, powders, etc.), upon choosing a product, the information of the product will be shown. At the bottom of the 
   
   
   
-  4/19 Class Notes:
+  
+  
+  4/19 Class Notes: (NOTE: these were made before our switch to a cosmetics app!)
   Step 1: 
 - Working adults are a group of people that need a way to have quick, healthy meals accessible because they value their health and need good meals for after work hours.
 
