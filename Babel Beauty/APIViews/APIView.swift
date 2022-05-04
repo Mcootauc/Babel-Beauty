@@ -22,8 +22,8 @@ struct APIView: View {
     
     
     @State var name: String = ""
-    @State  var product_type = "mascara"
     @State var brand: String = ""
+    @State  var product_type = "mascara"
     
 
     var body: some View {
@@ -53,7 +53,7 @@ struct APIView: View {
             .pickerStyle(.segmented)
             .padding(.horizontal)
 
-            ListView(searchName: name, searchType: product_type, searchBrand: brand)
+            ListView(searchName: name, searchBrand: brand, searchType: product_type)
 
               
         }

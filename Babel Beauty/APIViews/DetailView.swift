@@ -69,7 +69,7 @@ struct DetailView: View {
             if showDetail {
                 VStack(alignment: .center) {
                     
-                    Text("Type:")
+                    Text("Product Type:")
                         .font(.headline)
                     
                     Text(makeup.product_type)
@@ -78,12 +78,12 @@ struct DetailView: View {
                     
                     Spacer()
                     
-                    //Text("Last Known Location:")
-                    //   .font(.headline)
+                    Text("Description:")
+                       .font(.headline)
                     
-                    //Text(character.location.name ?? "")
-                    //    .font(.subheadline)
-                    //    .foregroundColor(.secondary)
+                    Text(makeup.description)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
                         
                     
                     

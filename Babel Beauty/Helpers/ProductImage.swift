@@ -25,5 +25,6 @@ struct ProductImage: View {
 struct ProductImage_Previews: PreviewProvider {
     static var previews: some View {
         ProductImage(imageUrl: "https://cdn.shopify.com/s/files/1/1338/0845/collections/lippie-pencil_grande.jpg?v=1512588769")
+
     }
 }

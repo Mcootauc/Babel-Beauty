@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ListView: View {
     var searchName: String
-    var searchType: String
     var searchBrand: String
+    var searchType: String
     
     @State var loading = false
     @State var errorOccurred = false
@@ -45,11 +45,11 @@ struct ListView: View {
                 }
             }
             
-            //.task(id: searchCategory) {
-            //    await loadSearchResults()
-            //}
-            
+            .task(id: searchType) {
+                await loadSearchResults()
+            }
         }
+
     }
     
     func loadSearchResults() async {
@@ -57,7 +57,7 @@ struct ListView: View {
         loading = true
         
         do {
-            let searchPage = try await searchMakeup(name: searchName, product_type: searchType, brand: searchBrand)
+            let searchPage = try await searchMakeup(name: searchName, brand: searchBrand, product_type: searchType)
             results = searchPage.results
         } catch {
             errorOccurred = true
@@ -72,7 +72,7 @@ struct ListView: View {
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView(searchName: "", searchType: "", searchBrand: "")
+        ListView(searchName: "", searchBrand: "", searchType: "mascara")
     }
 }
 

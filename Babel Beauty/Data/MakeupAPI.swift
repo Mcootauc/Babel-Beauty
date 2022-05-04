@@ -7,17 +7,17 @@
 
 import Foundation
 
-let MAKEUP_ROOT = "http://makeup-api.herokuapp.com/api/v1/products.json"
+let MAKEUP_ROOT = "https://makeup-api.herokuapp.com/api/v1/products.json"
 let SEARCH_ENDPOINT = "\(MAKEUP_ROOT)"
 
 enum CookbookAPIError: Error {
     case unsuccessfulDecode
 }
 
-func searchMakeup(name: String, product_type: String, brand: String) async throws -> MakeupSearchPage {
+func searchMakeup(name: String, brand: String, product_type: String) async throws -> MakeupSearchPage {
     // There are more structured ways to construct a URL with query parameters but
     // this suffices for this fixed pair.
-    guard let url = URL(string: "\(SEARCH_ENDPOINT)?name=\(name)&product_type=\(product_type)&brand=\(brand)") else {
+    guard let url = URL(string: "\(SEARCH_ENDPOINT)?name=\(name)&brand=\(brand)&product_type=\(product_type)") else {
         fatalError("Should never happen, but just in case…URL didn’t work 😔")
     }
 

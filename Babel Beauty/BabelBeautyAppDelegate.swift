@@ -23,6 +23,7 @@ import UIKit
 // first-party iOS ones just so I know who’s responsible for what.
 import Firebase
 
+
 class BabelBeautyAppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions:
