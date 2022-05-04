@@ -11,8 +11,8 @@
 import SwiftUI
 
 struct ArticleList: View {
-    @EnvironmentObject var auth: BabelCookbookAuth
-    @EnvironmentObject var articleService: BabelCookbookArticle
+    @EnvironmentObject var auth: BabelBeautyAuth
+    @EnvironmentObject var articleService: BabelBeautyArticle
 
     @Binding var requestLogin: Bool
 
@@ -98,7 +98,7 @@ struct ArticleList_Previews: PreviewProvider {
 
     static var previews: some View {
         ArticleList(requestLogin: $requestLogin, articles: [])
-            .environmentObject(BabelCookbookAuth())
+            .environmentObject(BabelBeautyAuth())
 
         ArticleList(requestLogin: $requestLogin, articles: [
             Article(
@@ -115,8 +115,8 @@ struct ArticleList_Previews: PreviewProvider {
                 body: "Duis diam ipsum, efficitur sit amet something somesit amet"
             )
         ])
-        .environmentObject(BabelCookbookAuth())
-        .environmentObject(BabelCookbookArticle())
+        .environmentObject(BabelBeautyAuth())
+        .environmentObject(BabelBeautyArticle())
     }
 }
 

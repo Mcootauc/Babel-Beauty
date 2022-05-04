@@ -24,14 +24,14 @@ struct ContentView: View {
                             "pin.circle")
                 }
         }
-        //.colorMultiply(Color("pastelOrange"))
+        .colorMultiply(Color("pink"))
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(BabelCookbookAuth())
+            .environmentObject(BabelBeautyAuth())
     }
 }
 
