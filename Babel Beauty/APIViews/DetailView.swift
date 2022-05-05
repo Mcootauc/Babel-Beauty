@@ -23,7 +23,7 @@ struct DetailView: View {
 
     var body: some View {
         ScrollView {
-            ProductImage(imageUrl: makeup.image_link)
+            ProductImage(imageUrl: makeup.image_link ?? "")
                 .overlay {
                     Rectangle().stroke(.black, lineWidth: 4).frame(width: 300, height: 300)
                 }
@@ -34,7 +34,7 @@ struct DetailView: View {
             
             VStack(alignment: .leading) {
                 HStack {
-                    Text(makeup.name)
+                    Text(makeup.name ?? "")
                     .font(.title)
                     .bold()
                 }
@@ -72,7 +72,7 @@ struct DetailView: View {
                     Text("Product Type:")
                         .font(.headline)
                     
-                    Text(makeup.product_type)
+                    Text(makeup.product_type ?? "")
                         .font(.subheadline)
                         .foregroundColor(.secondary)
                     
@@ -81,7 +81,7 @@ struct DetailView: View {
                     Text("Description:")
                        .font(.headline)
                     
-                    Text(makeup.description)
+                    Text(makeup.description ?? "")
                         .font(.subheadline)
                         .foregroundColor(.secondary)
                         
@@ -107,7 +107,6 @@ struct DetailView_Previews: PreviewProvider {
             brand: "colourpop",
             name: "Lippie Pencil",
             product_type: "lip_liner",
-            price: "5.0",
             description: "Lippie Pencil A long-wearing and high-intensity lip pencil that glides on easily and prevents feathering. Many of our Lippie Stix have a coordinating Lippie Pencil designed to compliment it perfectly, but feel free to mix and match!",
             image_link: "https://cdn.shopify.com/s/files/1/1338/0845/collections/lippie-pencil_grande.jpg?v=1512588769"
         ))

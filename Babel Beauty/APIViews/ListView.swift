@@ -58,7 +58,7 @@ struct ListView: View {
         
         do {
             let searchPage = try await searchMakeup(name: searchName, brand: searchBrand, product_type: searchType)
-            results = searchPage.results
+            results = searchPage
         } catch {
             errorOccurred = true
             
@@ -72,7 +72,7 @@ struct ListView: View {
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView(searchName: "", searchBrand: "", searchType: "mascara")
+        ListView(searchName: "", searchBrand: "", searchType: "lipstick")
     }
 }
 
