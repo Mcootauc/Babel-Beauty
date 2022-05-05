@@ -48,7 +48,7 @@ struct ArticleList: View {
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarLeading) {
                     if auth.user != nil {
-                        Button("New Article") {
+                        Button("New Review") {
                             writing = true
                         }
                         //.foregroundColor(Color("black"))
