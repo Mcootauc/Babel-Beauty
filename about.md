@@ -6,7 +6,7 @@ List your team and supply your general roles
 
 - Mitchell Cootauco: API handling, app layout formatting
 - Sebastian Cruz: Icon/theme designing, Firebase handling
-- Erin Hurlburt: main API , app layout formatting
+- Erin Hurlburt: main API programming, app layout formatting
 - Connor Savage: API handling, app layout formatting
 
 Explain your user audience and their needs
