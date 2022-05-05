@@ -24,13 +24,13 @@ struct DetailView: View {
     var body: some View {
         ScrollView {
             ProductImage(imageUrl: makeup.image_link ?? "")
-                .overlay {
-                    Rectangle().stroke(.black, lineWidth: 4).frame(width: 300, height: 300)
-                }
+//                .overlay {
+//                    Rectangle().stroke(.black, lineWidth: 4).frame(width: 300, height: 400)
+//                }
                 .aspectRatio(contentMode: .fill)
-                .frame(height: 180)
+                .frame(height: 150)
                 .offset(y: 50)
-                .padding(.bottom, 110)
+                .padding(.bottom, 200)
             
             VStack(alignment: .leading) {
                 HStack {

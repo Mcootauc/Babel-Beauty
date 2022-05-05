@@ -12,6 +12,8 @@
 		8A80E83F28231DEE0083D219 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8A80E83E28231DEE0083D219 /* FirebaseAuth */; };
 		8A80E84128231DEE0083D219 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A80E84028231DEE0083D219 /* FirebaseFirestore */; };
 		8A80E8432823203B0083D219 /* Babel-Beauty-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A80E8422823203B0083D219 /* Babel-Beauty-Info.plist */; };
+		8A80E84528237A1D0083D219 /* RectangleParamaters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80E84428237A1C0083D219 /* RectangleParamaters.swift */; };
+		8A80E84728237A460083D219 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80E84628237A460083D219 /* BadgeBackground.swift */; };
 		8AA18F7F28223A9F00FC538C /* ProductImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA18F7E28223A9F00FC538C /* ProductImage.swift */; };
 		8AA18F812823117000FC538C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AA18F802823117000FC538C /* GoogleService-Info.plist */; };
 		B71D9EA8281E12D90026F9E0 /* BabelBeautyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D9EA7281E12D90026F9E0 /* BabelBeautyAppDelegate.swift */; };
@@ -38,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		8A80E8422823203B0083D219 /* Babel-Beauty-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Babel-Beauty-Info.plist"; sourceTree = "<group>"; };
+		8A80E84428237A1C0083D219 /* RectangleParamaters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleParamaters.swift; sourceTree = "<group>"; };
+		8A80E84628237A460083D219 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		8A80E848282384EE0083D219 /* ABOUT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ABOUT.md; sourceTree = "<group>"; };
 		8AA18F7E28223A9F00FC538C /* ProductImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImage.swift; sourceTree = "<group>"; };
 		8AA18F802823117000FC538C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B71D9EA7281E12D90026F9E0 /* BabelBeautyAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelBeautyAppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				8AA18F7E28223A9F00FC538C /* ProductImage.swift */,
+				8A80E84428237A1C0083D219 /* RectangleParamaters.swift */,
+				8A80E84628237A460083D219 /* BadgeBackground.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -168,6 +175,7 @@
 				B71D9EBC281E13550026F9E0 /* View */,
 				B7A87ADF281E02FE009D69B8 /* Assets.xcassets */,
 				B7A87AE1281E02FE009D69B8 /* Preview Content */,
+				8A80E848282384EE0083D219 /* ABOUT.md */,
 			);
 			path = "Babel Beauty";
 			sourceTree = "<group>";
@@ -275,8 +283,10 @@
 				B71D9ECC281E15ED0026F9E0 /* Article.swift in Sources */,
 				B71D9ED9281E16A10026F9E0 /* MakeupAPI.swift in Sources */,
 				B71D9ED6281E16810026F9E0 /* RowView.swift in Sources */,
+				8A80E84528237A1D0083D219 /* RectangleParamaters.swift in Sources */,
 				B71D9EAE281E13070026F9E0 /* BabelBeautyAuth.swift in Sources */,
 				B7A87ADE281E02FC009D69B8 /* ContentView.swift in Sources */,
+				8A80E84728237A460083D219 /* BadgeBackground.swift in Sources */,
 				B71D9EDB281E16B10026F9E0 /* Makeup.swift in Sources */,
 				B71D9ED4281E167C0026F9E0 /* DetailView.swift in Sources */,
 				8AA18F7F28223A9F00FC538C /* ProductImage.swift in Sources */,

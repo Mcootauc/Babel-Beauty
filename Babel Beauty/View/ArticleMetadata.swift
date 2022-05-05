@@ -17,6 +17,7 @@ struct ArticleMetadata: View {
         HStack() {
             Text(article.title)
                 .font(.headline)
+                .background(BadgeBackground())
 
             Spacer()
 
