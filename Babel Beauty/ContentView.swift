@@ -23,8 +23,9 @@ struct ContentView: View {
                           systemImage:
                             "pin.circle")
                 }
+                .colorMultiply(Color("pink"))
         }
-        .colorMultiply(Color("pink"))
+        
     }
 }
 
