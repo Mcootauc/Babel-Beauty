@@ -13,3 +13,6 @@ https://github.com/Mcootauc/Babel-Beauty/assets/73667103/f43aa49a-d9c1-45ce-b180
 ## Tech Stack
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+
+##API
+https://makeup-api.herokuapp.com/ - A REST API that provides various makeup products with information about the brand, product type, and more.
