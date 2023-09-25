@@ -1,5 +1,5 @@
 # Babel Beauty
-A handy iOS app that's like a beauty blog for cosmetics enthusiasts. Here's how it works: you can write articles about makeup, give ratings to different products, and share your thoughts with the community. Once you have an account, others can read your reviews and insights.
+This is Babel Beauty. A handy iOS app that's like a beauty blog for cosmetics enthusiasts. Here's how it works: you can write articles about makeup, give ratings to different products, and share your thoughts with the community. Once you have an account, others can read your reviews and insights.
 
 ## Youtube Video
 https://github.com/Mcootauc/Babel-Beauty/assets/73667103/f43aa49a-d9c1-45ce-b180-8788d586907a
